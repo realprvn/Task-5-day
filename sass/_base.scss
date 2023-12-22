@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Theme colors 
+
+$primary:#3299ef;
+$secondary:#ececec;
+$danger:#d32752;
+$warning:#f7b84b;
+$succes:#1ac888;
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
