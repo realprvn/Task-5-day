@@ -44,36 +44,211 @@ button {
   font-family: "Scope One", serif;
 }
 
-.background-section {
-  background-image: url("/images/baku.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header {
-  position: fixed;
-  width: 100%;
-  left: 20px;
-  top: 20px;
-  font-size: 1.25rem;
-  background-color: transparent;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
-.logo a {
+.header .logo a {
   color: rgb(52, 152, 219);
 }
 
-.logo span {
+.header .logo span {
   color: #fff;
+}
+
+.header a {
+  color: #fff;
+  transition: color 0.3s ease-in;
+}
+
+.header a:hover {
+  color: rgb(52, 152, 219);
+}
+
+.banner {
+  background-image: url(/images/baku.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inner {
+  color: #fff;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.inner header h1 {
+  font-size: 4em;
+}
+
+.inner header p {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.button-big {
+  padding-top: 30px;
+}
+
+.button-big a:hover {
+  background-color: #3299ef;
+}
+
+.button-big a {
+  background-color: rgb(52, 152, 219);
+  padding: 1em 1.5em;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.style1 {
+  display: flex;
+  background-color: #fff;
+  color: rgb(153, 153, 153);
+  height: 60vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.style1 .container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.style1 .container .img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px rgb(153, 153, 153) solid;
+  object-fit: cover;
+}
+
+.title {
+  width: 70%;
+}
+
+.style2 {
+  display: flex;
+  background-color: #fff;
+  color: rgb(153, 153, 153);
+  height: 60vh;
+}
+
+.style2 {
+  background-color: rgb(52, 152, 219);
+}
+
+.style2 .container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.style2 .container .img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px rgb(153, 153, 153) solid;
+  object-fit: cover;
+}
+
+.button-big-2 {
+  padding-top: 30px;
+}
+
+.button-big-2 a {
+  background-color: #fff;
+  padding: 1em 1.5em;
+  border-radius: 4px;
+  color: rgb(52, 152, 219);
+}
+
+.style3 {
+  background-color: rgb(250, 250, 250);
+  color: rgb(153, 153, 153);
+  height: 100vh;
+}
+
+.container3 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.style3 .style3-title {
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 60px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.style3-container {
+  width: 30%;
+}
+
+.img-3 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px rgb(153, 153, 153) solid;
+  object-fit: cover;
+}
+
+.style4 {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 40vh;
+}
+
+.container4 {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.logos i {
+  margin-left: 25px;
+}
+
+.logos a {
+  color: black;
+}
+
+.logos .instagram:hover {
+  color: pink;
+}
+
+.logos .facebook:hover {
+  color: blue;
+}
+
+.logos .twitter:hover {
+  color: rgb(52, 152, 219);
+}
+
+.logos .github:hover {
+  color: rgb(153, 153, 153);
 }
